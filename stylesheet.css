@@ -16,3 +16,11 @@
 	min-height: 100vh;
 }
 
+.social {
+    color: #ffffff;
+}
+
+.social:hover{
+    color: blue; 
+}
+
