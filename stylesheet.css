@@ -1,0 +1,18 @@
+.header {
+    padding: 120px 0px;
+    overflow: hidden;
+    background-image: url('images/black.jpg');
+    color: #ffffff;
+}
+
+.footer {
+    padding: 20px 30px;
+    background-image: url('images/black.jpg');
+    color: #ffffff;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
