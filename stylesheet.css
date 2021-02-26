@@ -24,3 +24,8 @@
     color: blue; 
 }
 
+.card-img-top {
+    height: 25vh;
+    object-fit: cover;
+}
+
