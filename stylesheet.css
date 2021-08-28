@@ -1,8 +1,7 @@
 .header {
     padding: 80px 0px;
     overflow: hidden;
-    background-image: url('images/black.jpg');
-    color: #ffffff;
+    color: #f7fff7ff
 }
 
 .footer {
@@ -29,3 +28,125 @@
     object-fit: cover;
 }
 
+.org {
+    border: 1px solid grey;
+    padding: 10px;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.description {
+    padding: 5px 18px;
+    border-top: none;
+}
+
+.edu:focus  {
+    outline: none;
+}
+
+.edu:hover {
+    background-color:#4ecdc4ff ;
+}
+
+.description.edu {
+    border: 1px solid #4ecdc4ff;
+}
+
+.job:focus  {
+    outline: none;
+}
+
+.job:hover {
+    background-color: #ffe66dff;
+}
+
+.description.career {
+    border: 1px solid #ffe66dff;
+}
+
+.square {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.metal {
+    color: #292f36ff;
+}
+
+.teal {
+    color: #4ecdc4ff;
+}
+
+.mint-cream {
+    color: #f7fff7ff;
+}
+
+.sweet {
+    color: #ff6b6bff;
+}
+
+.yellow {
+    color:  #ffe66dff;
+}
+
+.metal-b {
+    background-color: #292f36ff;
+}
+
+.teal-b {
+    background-color: #4ecdc4ff;
+}
+
+.mint-cream-b {
+    background-color: #f7fff7ff;
+}
+
+.sweet-b {
+    background-color: #ff6b6bff;
+}
+
+.yellow-b {
+    background-color:  #ffe66dff;
+}
+
+/* CSS HEX 
+--gunmetal: #292f36ff;
+--medium-turquoise: #4ecdc4ff;
+--mint-cream: #f7fff7ff;
+--bittersweet: #ff6b6bff;
+--naples-yellow:
+
+
+--dark-sky-blue: #74b3ceff;
+--steel-teal: #508991ff;
+--prussian-blue: #172a3aff;
+--warm-black: #004346ff;
+--mountain-meadow: #09bc8aff;
+
+
+--dark-sea-green: #83b692ff;
+--melon: #f9ada0ff;
+--brink-pink: #f9627dff;
+--cinnamon-satin: #c65b7cff;
+--dark-byzantium: #5b3758ff;
+
+--palatinate-purple: #5c2751ff;
+--liberty: #6457a6ff;
+--maximum-blue-purple: #9dacffff;
+--sky-blue-crayola: #76e5fcff;
+--maximum-blue: #4bc0d9ff;
+
+--violet-web: #ea7af4ff;
+--fandango: #b43e8fff;
+--purple: #6200b3ff;
+--indigo: #3b0086ff;
+--dark-purple: #290628ff;
+*/
