@@ -33,7 +33,12 @@ h3 {
     color: #292f36ff;
 }
 
-
+.img-cover {
+    width: 100%;
+    height: 25vw;
+    object-fit: scale-down;
+    object-position: bottom;
+}
 
 .social {
     color: #ffffff;
