@@ -1,4 +1,73 @@
+/* CSS HEX 
+--citron: #8ea604ff;
+--orange-yellow: #f5bb00ff;
+--marigold: #ec9f05ff;
+--chocolate-web: #d76a03ff;
+--rust: #bf3100ff;
 
+--rich-black-fogra-39: #06070eff;
+--ming: #026c7cff;
+--ochre: #d17a22ff;
+--rufous: #a40606ff;
+--rosewood: #5a0002ff;
+*/
+.orange-border {
+    border-color: #d17a22ff;
+}
+
+.orange {
+    color: #d17a22ff;
+}
+
+.red-border {
+    border-color: #a40606ff;
+}
+
+.red {
+    color: #a40606ff;
+}
+
+.rosewood-border {
+    border-color: #5a0002ff;
+}
+
+.rosewood {
+    color: #5a0002ff;
+}
+
+body, html {
+    height: 100%;
+  }
+
+
+nav {
+    background-color: #06070eff;
+}
+  
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/IMG_0036.JPG");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
 
 .header {
     padding: 40px 0px;
@@ -24,15 +93,17 @@ h3 {
 }
 
 .btn {
-    border: 1px solid #292f36ff;
+    border: 1px solid #ffffff;
     font-weight: bold;
-    color: #292f36ff ;
+    color: #ffffff ;
 }
+
+
 
 .btn:hover {
     
-    background-color:#4ecdc4ff ;
-    color: #292f36ff;
+    background-color:#5a0002ff;
+    color:#ffffff;
 }
 
 .img-cover {
@@ -150,36 +221,4 @@ h3 {
     background-color:  #ffe66dff;
 }
 
-/* CSS HEX 
---gunmetal: #292f36ff;
---medium-turquoise: #4ecdc4ff;
---mint-cream: #f7fff7ff;
---bittersweet: #ff6b6bff;
---naples-yellow:
 
-
---dark-sky-blue: #74b3ceff;
---steel-teal: #508991ff;
---prussian-blue: #172a3aff;
---warm-black: #004346ff;
---mountain-meadow: #09bc8aff;
-
-
---dark-sea-green: #83b692ff;
---melon: #f9ada0ff;
---brink-pink: #f9627dff;
---cinnamon-satin: #c65b7cff;
---dark-byzantium: #5b3758ff;
-
---palatinate-purple: #5c2751ff;
---liberty: #6457a6ff;
---maximum-blue-purple: #9dacffff;
---sky-blue-crayola: #76e5fcff;
---maximum-blue: #4bc0d9ff;
-
---violet-web: #ea7af4ff;
---fandango: #b43e8fff;
---purple: #6200b3ff;
---indigo: #3b0086ff;
---dark-purple: #290628ff;
-*/
